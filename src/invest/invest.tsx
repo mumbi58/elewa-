@@ -12,8 +12,10 @@ const Invest = () => {
 
 <div className="nav2">
     <h2>How we see it differently</h2>
-    <p>The global South is rapidly catching up with the "developed" world. It's time for you to get to know the rapid development, innovation and drive going on in this part of the world (East-Africa, South Asia and beyond).</p>
-    <div className="img"></div>
+    <p>The global South is rapidly catching up with the "developed" world. It's time<br></br> for you to get to know the rapid development, innovation and drive going on <br></br>in this part of the world (East-Africa, South Asia and beyond).</p>
+    <div className="img">
+        <img src="/Assets/2.png" alt="img" />
+    </div>
 </div>
 
 <div className="figures">

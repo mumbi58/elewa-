@@ -1,7 +1,8 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
+    /* height: 100%; */
+    background-color: white;
   }
   
   .hero {
@@ -32,4 +33,29 @@ margin: 5rem 0 0 4rem;
     font-size: 2.9rem; /* Set the font size for p */
     margin: 4rem 0 0 4rem; /* Set margin for p */
   }
+  .nav2{
+    background-color: white;
+
+  }
+  .nav2 h2{
+    margin: 3rem 0 0 4rem;
+    font-size: 3rem;
+    color: black;
+    font-weight: 300;
+  }
+  .nav2 p{
+    margin: 3rem 0 0 4rem;
+    color: black;
+    font-size: 1.6rem;
+
+
+  }
+  .nav2 img {
+    display: block;
+    margin: 3rem 0 0 4rem; /* Adjust margin to align with text */
+    max-width: 85%; /* Adjust the size of the image */
+    height: auto;
+}
+
+  
   
