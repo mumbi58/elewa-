@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .hero {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background-image: url('/Assets/1.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    color: white; /* Set text color for readability */
+    width: 100vw;
+  }
+  
+  Navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; /* Place the Navbar above the background image */
+    /* Add other necessary styles for the Navbar */
+  }
+  
+  .hero h3 {
+    font-size: 1rem; /* Set the font size for h3 */
+margin: 5rem 0 0 4rem;    
+  }
+  
+  .hero p {
+    font-size: 2.9rem; /* Set the font size for p */
+    margin: 4rem 0 0 4rem; /* Set margin for p */
+  }
+  
