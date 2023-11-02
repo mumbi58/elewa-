@@ -57,5 +57,67 @@ margin: 5rem 0 0 4rem;
     height: auto;
 }
 
+/* Add these styles to your CSS file */
+/* Update the figures styling */
+.figures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.figurecards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns */
+  grid-auto-rows: minmax(100px, auto); /* Auto rows with a minimum height */
+  gap: 10px; /* Spacing between the grid items */
+}
+
+
+
+.cards {
+  border: 1px solid #ccc; /* Grey-colored border on all sides */
+  margin: 0px; /* Space between cards */
+  border-radius: 5%;
+  padding: 35px;
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+.figures h1{
+  margin: 20px 0;
+}
+
+.informartion {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.img2 {
+  flex: 1;
+  margin: 4.5rem 0  0 4.8rem;
+}
+
+.img2 img {
+  max-height: 90vh;
+}
+
+.content {
+  margin-left: 5rem;
+  flex: 2;
+  color: black;
+  padding-left: 2rem;
+
+}
+.content h2{
+  font-size: 2.7rem;
+}
+.content p{
+  font-size: 1.2rem;
+}
+
+
+
+
   
   
