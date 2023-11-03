@@ -115,9 +115,125 @@ margin: 5rem 0 0 4rem;
 .content p{
   font-size: 1.2rem;
 }
+.information2 {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.img3 {
+  flex: 1;
+}
+
+.img3 img {
+  max-height: 90vh;
+margin-right: 5rem;
+margin: 3rem 6rem 0 0;
+border-radius: 5%;
+}
+
+.content2 {
+  margin-left: 5rem;
+  margin: 1rem 0 0 5rem;
+  padding-left: 3rem;
+  flex: 2;
+  color: black;
+}
+
+.content2 h2 {
+  font-size: 2.7rem;
+}
+
+.content2 p {
+  font-size: 1.2rem;
+}
 
 
 
 
-  
-  
+
+
+
+
+.information3 {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.img4 {
+  flex: 2;
+  margin: 4.5rem 0 0 4.8rem;
+}
+
+.img4 img {
+  max-height: 90vh;
+  border-radius: 7%;
+
+}
+
+.content3 {
+  flex: 2;
+  margin-right: 5rem;
+  color: black;
+  padding-left: 2rem;
+}
+
+.content3 h2 {
+  font-size: 2.7rem;
+}
+
+.content3 p {
+  font-size: 1.2rem;
+}
+.arrow-button .circle:before {
+  content: '→';
+  font-size: 1.5rem;
+  position: absolute;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle {
+  width: 1.8rem;
+  height: 1.8rem;
+  padding-bottom: 0;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  border: none;
+  margin-right: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8rem;
+  margin-left: 0.6rem;
+}
+.arrow-button {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 3.2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.arrow-button:hover {
+  background-color: white;
+  color: black;
+  border:  1px solid grey;
+}
+
+.arrow-button .circle:hover {
+  transform: translateX(-0.3rem);
+}
+
+.arrow-button:hover .circle:before {
+  transform: translate(-80%, -50%);
+}

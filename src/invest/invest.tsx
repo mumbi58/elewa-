@@ -1,4 +1,5 @@
 import Navbar from "../About/navbar";
+import Footer from "../footer";
 import "./invest.css"
 const Invest = () => {
     return ( 
@@ -76,9 +77,9 @@ Elewa NV is owned and controlled by Elewa's founder, a <br></br>small community 
     <div className="content2">
         <h2>The Elewa Creative Hub
 </h2>
-<p>Coming soon; The Elewa Creative Hub Lies at the heart of our organization. A two-acre property at the center of Nairobi's creative district, the hub connects all Elewa's Activities under a single banner.
-
-Through partnerships with creative community, the Elewa Hub will organize vibrant activites that bring talents from different fields (tech, business, art, fashion) together to nurture continuous innovat</p>
+<p>Coming soon; The Elewa Creative Hub Lies at the heart<br></br> of our organization. A two-acre property at the center <br></br>of Nairobi's creative district, the hub connects all <br></br>Elewa's Activities under a single banner.
+<br></br><br></br>
+Through partnerships with creative community, the<br></br> Elewa Hub will organize vibrant activites that bring<br></br> talents from different fields (tech, business, art, <br></br>fashion) together to nurture continuous innovat</p>
     </div>
     <div className="img3">
         <img src="/Assets/4.jpg" alt="" />
@@ -86,18 +87,25 @@ Through partnerships with creative community, the Elewa Hub will organize vibran
 </div>
 
 <div className="information3">
-    <div className="img4"></div>
+    <div className="img4"> <img src="/Assets/5.jpg" alt="" /></div>
     <div className="content3">
         <h2>Investing in Elewa NV
 </h2>
-<p>From time to time, we offer investment opportunities (private equity & debt) to out community of investors. Interested to take part when this opportunity arrives?</p>
-<button>join the waiting list</button>
-    </div>
+<p>From time to time, we offer investment opportunities <br></br>(private equity & debt) to out community of investors.<br></br> Interested to take part when this opportunity arrives?</p>
+<button className="arrow-button">
+          join the waiting list
+          <span className="circle"></span>
+        </button>    </div>
 </div>
 
 <div className="info">
     <h2>Become part of our mission.
 And start investing</h2>
+</div>
+
+
+<div className="footer">
+    <Footer />
 </div>
 
         </div>
