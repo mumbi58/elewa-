@@ -5,7 +5,8 @@ const Invest = () => {
     return ( 
         <div className="invest">
             <div className="hero">
-<Navbar />
+                <div className="navbar"><Navbar />
+</div>
 
 <h3>Trade, not aid</h3>
 <p>Southern innovations addressing <br></br>global problems</p>

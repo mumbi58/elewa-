@@ -1,0 +1,37 @@
+
+Navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .info{
+    background-image: url("/Assets/12.jpg");
+      filter: brightness(70%); /* Adjust the percentage to control the brightness */
+    position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  z-index: 1;
+  }
+  .info h3{
+    margin: 15rem 0 0 4rem;
+    /* font-weight: 400; */
+    color: white;
+  }
+  .info h2{
+    margin-left: 4rem;
+  }
+  .info h4{
+    margin:9rem 0 0 6rem;
+  }
+  .care{
+    color: black;
+  }
+  .cards{ display: flex;
+    gap: 16.5rem;
+
+
+  }

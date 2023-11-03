@@ -1,63 +1,65 @@
-/* Page-wide styles */
 body {
-    margin: 0;
-    padding: 0;
-    background: transparent; /* Colorless background */
-  }
-  
-  /* Navbar styles */
-  .navbar {
-    /* position: fixed; */
-    top: 0;
-    width: 100%;
-    /* background-color: rgba(255, 255, 255, 0.8); Light transparent background */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.2rem;
-    z-index: 1000; /* Ensure it's above other content */
-    color: white;
-    border-bottom: 1px solid white; /* Adding a white line under the navbar */
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-  }
-  .logo {
-    margin-right: -2rem; /* Adjusted margin for the logo */
-  }
+.navbar {
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+  z-index: 1000;
+  color: white;
+  border-bottom: 0.016rem solid white;
+}
+.navbar::after {
+  content: "";
+  display: block;
+  width: 88.8%;
+  height: 1px;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 5.1%; /* Center the line by moving it from the left */
+}
 
-  
-  /* Logo styles */
-  .logo h2 {
-    font-size: 2rem;
-    margin: 0;
-  }
-  
-  /* Navigation links styles */
-  .nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    margin-right: 5rem;
+.logo {
+  margin-right: -2rem;
+}
 
-  }
-  
-  .nav-links li {
-    margin-right: 1rem;
-    font-size: 0.5rem;
-  }
-  
-  .nav-links li:last-child {
-    margin-right: 0;
-  }
-  
-  /* Navigation links anchor styles */
-  .nav-links li a {
-    font-size: 0.9rem;
-    text-decoration: none;
-    color: white;
-  }
-  .nav-links li a:hover{
-    text-decoration: underline;
-  }
+.logo h2 {
+  font-size: 2rem;
+  margin: 0;
+}
 
-  
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-right: 5rem;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+  font-size: 0.5rem;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links li a:hover{
+  text-decoration: underline;
+}
+

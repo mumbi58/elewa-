@@ -1,60 +1,59 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    /* height: 100%; */
-    background-color: white;
-  }
-  
-  .hero {
-    position: relative;
-    height: 100vh; /* Full viewport height */
-    background-image: url('/Assets/1.jpg'); /* Path to your image */
-    background-size: cover; /* Cover the entire area */
-    background-position: center; /* Center the image */
-    color: white; /* Set text color for readability */
-    width: 100vw;
-  }
-  
-  Navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1; /* Place the Navbar above the background image */
-    /* Add other necessary styles for the Navbar */
-  }
-  
-  .hero h3 {
-    font-size: 1rem; /* Set the font size for h3 */
-margin: 5rem 0 0 4rem;    
-  }
-  
-  .hero p {
-    font-size: 2.9rem; /* Set the font size for p */
-    margin: 4rem 0 0 4rem; /* Set margin for p */
-  }
-  .nav2{
-    background-color: white;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
 
-  }
-  .nav2 h2{
-    margin: 3rem 0 0 4rem;
-    font-size: 3rem;
-    color: black;
-    font-weight: 300;
-  }
-  .nav2 p{
-    margin: 3rem 0 0 4rem;
-    color: black;
-    font-size: 1.6rem;
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url('/Assets/1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  width: 100vw;
+}
 
+Navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
 
-  }
-  .nav2 img {
-    display: block;
-    margin: 3rem 0 0 4rem; /* Adjust margin to align with text */
-    max-width: 85%; /* Adjust the size of the image */
-    height: auto;
+.hero h3 {
+  font-size: 1rem;
+  margin: 5rem 0 0 4rem;
+}
+
+.hero p {
+  font-size: 2.9rem;
+  margin: 4rem 0 0 4rem;
+}
+
+.nav2 {
+  background-color: white;
+}
+
+.nav2 h2 {
+  margin: 3rem 0 0 4rem;
+  font-size: 3rem;
+  color: black;
+  font-weight: 300;
+}
+
+.nav2 p {
+  margin: 3rem 0 0 4rem;
+  color: black;
+  font-size: 1.6rem;
+}
+
+.nav2 img {
+  display: block;
+  margin: 3rem 0 0 4rem;
+  max-width: 85%;
+  height: auto;
 }
 
 /* Add these styles to your CSS file */
@@ -69,9 +68,9 @@ margin: 5rem 0 0 4rem;
 
 .figurecards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Four columns */
-  grid-auto-rows: minmax(100px, auto); /* Auto rows with a minimum height */
-  gap: 10px; /* Spacing between the grid items */
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 10px;
 }
 
 
