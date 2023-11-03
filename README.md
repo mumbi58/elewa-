@@ -46,7 +46,7 @@ Ensure you have the following installed on your machine:
 * Open the folder location on terminal and use the following command to run app:
 
 ### live link
-https://precious-jalebi-2851d3.netlify.app/
+https://precious-jaleb-2851d3.netlify.app/
 ## dependencies
 - font awesome icons
 ## Technologies Used
